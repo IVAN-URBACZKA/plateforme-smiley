@@ -112,11 +112,14 @@ div{
 #green{
     background: #b0f2b6;
     position: relative;
+    margin-bottom: 5px;
 }
 
 #yellow{
     background: #fdfd96;
     position: relative;
+    margin-bottom: 5px;
+
 }
 
 #red{
@@ -159,6 +162,10 @@ div{
    main{
        flex-direction: row;
        margin-top: 0%;
+   }
+
+   #green,#yellow{
+       margin-bottom: 0px;
    }
 }
 
