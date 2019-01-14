@@ -94,6 +94,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   body{
+       outline: none;
+   }
 main{
     display: flex;
     flex-direction: column;
@@ -117,13 +121,13 @@ div{
 #green{
     background: #b0f2b6;
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #yellow{
     background: #fdfd96;
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 
 }
 

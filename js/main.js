@@ -1,9 +1,12 @@
 let buttongreen = document.querySelector("#green");
 let buttonyellow = document.querySelector("#yellow");
+let buttonred = document.querySelector("#red-mouth");
+
 
 
 let x = 0;
 let i = 0;
+const arr = ["indianred","aqua","pink"];
 
 buttongreen.addEventListener("mousemove",function(){
 
@@ -24,4 +27,12 @@ buttonyellow.addEventListener("click",function(){
         }
     })
 
-const arr = ["indianred","aqua","pink"];
+
+    buttonred.addEventListener("click",function(){
+
+        buttonred.style.borderRadius =  "0px 0px 100px 100px";
+
+        
+        })
+    
+    
